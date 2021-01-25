@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1605893733880' stop='1605894033963'>
+    <name>Verifying feature search and reverse geocode</name>
+    <title>Verifying feature search and reverse geocode</title>
+    <test-cases>
+        <test-case start='1605893733881' status='broken' stop='1605894033959'>
+            <name>Should feature search and reverse geocode search</name>
+            <title>Should feature search and reverse geocode search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 300000ms exceeded. The execution in the test "Verifying feature search and reverse geocode Should feature search and reverse geocode search" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\Users\Alok's\Documents\PECO Automated testscripts\test\search.test.js)</message>
+                <stack-trace>Error: Timeout of 300000ms exceeded. The execution in the test "Verifying feature search and reverse geocode Should feature search and reverse geocode search" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\Users\Alok's\Documents\PECO Automated testscripts\test\search.test.js)
+                    at Test.Runnable._timeoutError (C:\Users\Alok's\Documents\PECO Automated testscripts\node_modules\@wdio\mocha-framework\node_modules\mocha\lib\runnable.js:425:10)
+                    at Timeout.&lt;anonymous> (C:\Users\Alok's\Documents\PECO Automated testscripts\node_modules\@wdio\mocha-framework\node_modules\mocha\lib\runnable.js:237:24)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Verifying_basemap_components" timestamp="2020-11-23T21:07:39" time="62.368" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Verifying basemap components"/>
+      <property name="capabilities" value="chrome.87_0_4280_66.windows"/>
+      <property name="file" value=".\test\TC_002_basemap.test.js"/>
+    </properties>
+    <testcase classname="chrome.87_0_4280_66.windows.Verifying_basemap_components" name="Should_verify_different_components_of_the_basemap" time="62.348">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element - {"using":"xpath","value":"//*[@id=\"HomeButton\"]/div/div"}
+RESULT: {"using":"xpath","value":"//span[text()=\"Project\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"HomeButton\"]/div/div"}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element/27c3348e-e6e6-412d-ae7b-2c42382ebcde/click - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element - {"using":"xpath","value":"//*[@id=\"webmap-toolbar-Basemap1\"]/button"}
+RESULT: {"using":"xpath","value":"//*[@id=\"webmap-toolbar-Basemap1\"]/button"}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element/6e7170f7-e6bb-43b2-8cac-73f13ba8f19b/click - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element - {"using":"xpath","value":"//*[@id=\"webmap-toolbar-Basemap1\"]/button"}
+RESULT: {"using":"xpath","value":"//*[@id=\"webmap-toolbar-Basemap1\"]/button"}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element/6e7170f7-e6bb-43b2-8cac-73f13ba8f19b/click - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element - {"using":"xpath","value":"//*[@id=\"galleryNode_GoogleHybrid\"]/a/img"}
+RESULT: {"using":"xpath","value":"//*[@id=\"galleryNode_GoogleHybrid\"]/a/img"}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element/ff5615bb-8407-4a4f-9780-d550f3d17d31/click - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+RESULT: {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: undefined
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+RESULT: {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: undefined
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element - {"using":"xpath","value":"//*[@id=\"webmap-toolbar-Basemap1\"]/button"}
+RESULT: {"using":"xpath","value":"//*[@id=\"webmap-toolbar-Basemap1\"]/button"}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element/6e7170f7-e6bb-43b2-8cac-73f13ba8f19b/click - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element - {"using":"xpath","value":"//*[@id=\"galleryNode_GoogleRoad\"]/a/img"}
+RESULT: {"using":"xpath","value":"//*[@id=\"galleryNode_GoogleRoad\"]/a/img"}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element/48a93507-5dca-493a-9121-16b0a7ea2414/click - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+RESULT: {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: undefined
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+RESULT: {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: undefined
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element - {"using":"xpath","value":"//*[@id=\"webmap-toolbar-Basemap1\"]/button"}
+RESULT: {"using":"xpath","value":"//*[@id=\"webmap-toolbar-Basemap1\"]/button"}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element/6e7170f7-e6bb-43b2-8cac-73f13ba8f19b/click - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element - {"using":"xpath","value":"//*[@id=\"galleryNode_DarkGrayCanvas\"]/a/img"}
+RESULT: {"using":"xpath","value":"//*[@id=\"galleryNode_DarkGrayCanvas\"]/a/img"}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/element/613b63de-7355-4fe0-a92a-bb149dca6240/click - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+RESULT: {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: undefined
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[true]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+RESULT: {"script":"return (function getScreenDimensions() {\r\n    var body = document.body;\r\n    var html = document.documentElement;\r\n    var bodyDimensions = {\r\n        scrollHeight: body == null ? 0 : body.scrollHeigh ... (1051 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[0]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+RESULT: {"script":"return (function scrollToPosition(yPosition) {\r\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\r\n}).apply(null, arguments)","args":[623]}
+COMMAND: GET /session/d75f5a75d735a7c7e19b7e26fcfadcee/screenshot - {}
+RESULT: {}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+RESULT: {"script":"return (function getDocumentScrollHeight() {\r\n    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\r\n    var scrollHeight = document.documentElement.scroll ... (1213 more bytes)","args":[]}
+COMMAND: POST /session/d75f5a75d735a7c7e19b7e26fcfadcee/execute/sync - {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: {"script":"return (function hideScrollBars(hide) {\r\n    try {\r\n        if (hide) {\r\n            document.body.style.overflow = 'hidden';\r\n        }\r\n        else {\r\n            document.body.style.overflow = '';\r\n        }\r\n    }\r\n    catch (e) {\r\n    }\r\n}).apply(null, arguments)","args":[false]}
+RESULT: undefined
+COMMAND: DELETE /session/d75f5a75d735a7c7e19b7e26fcfadcee - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

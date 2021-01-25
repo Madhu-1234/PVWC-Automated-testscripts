@@ -1,0 +1,321 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Identify functionality for division locations",
+      "uid" : "89b720b359e4a6b0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1605898063758,
+        "stop" : 1605898085910,
+        "duration" : 22152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Measure area, linear distance and location",
+      "uid" : "edcdd7d80afa0ca3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606142314925,
+        "stop" : 1606142389913,
+        "duration" : 74988
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should feature search and reverse geocode search",
+      "uid" : "5f183341a3031add",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605897165048,
+        "stop" : 1605897210759,
+        "duration" : 45711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should verify legend layer Work Order Points",
+      "uid" : "d8daf9d6fc6279b7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1606813835955,
+        "stop" : 1606813839169,
+        "duration" : 3214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should display a new pdf tab for print",
+      "uid" : "e817b6d7d785d2e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606139861924,
+        "stop" : 1606139876223,
+        "duration" : 14299
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should verify legend layer Work Order Points",
+      "uid" : "c249f5a2d2330ef2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1605795941840,
+        "stop" : 1605795944030,
+        "duration" : 2190
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Identify functionality for division locations",
+      "uid" : "a8375bd3d6a273e3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1606138629346,
+        "stop" : 1606138702703,
+        "duration" : 73357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Identify functionality for division locations",
+      "uid" : "1e929bf77369b21d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606139232111,
+        "stop" : 1606139261118,
+        "duration" : 29007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should verify different components of the basemap",
+      "uid" : "f1fd648f42154242",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605892319080,
+        "stop" : 1605892387425,
+        "duration" : 68345
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should verify Google streetview",
+      "uid" : "ef75710914de7829",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605893009889,
+        "stop" : 1605893033321,
+        "duration" : 23432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should verify legend layer Work Order Points",
+      "uid" : "abe042f8f74dfa0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605796031800,
+        "stop" : 1605796036484,
+        "duration" : 4684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should verify different components of the basemap",
+      "uid" : "eed70c2aa5f13908",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605888065233,
+        "stop" : 1605888146471,
+        "duration" : 81238
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should feature search and reverse geocode search",
+      "uid" : "2b64f6827ca86c6e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605896748062,
+        "stop" : 1605896794000,
+        "duration" : 45938
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should verify legend layer Work Order Points",
+      "uid" : "96c3aed6e735e91e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611596226360,
+        "stop" : 1611596237145,
+        "duration" : 10785
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Measure area, linear distance and location",
+      "uid" : "60eca3f4073c4b1f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606142471086,
+        "stop" : 1606142536883,
+        "duration" : 65797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Identify functionality for division locations",
+      "uid" : "11b11dfcce6fc36a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1606139071650,
+        "stop" : 1606139100654,
+        "duration" : 29004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should feature search and reverse geocode search",
+      "uid" : "168bba8bdea7493e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1605893733881,
+        "stop" : 1605894033959,
+        "duration" : 300078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to testfieldbook",
+      "uid" : "18a5adcc12a262ad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606143118676,
+        "stop" : 1606143132704,
+        "duration" : 14028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Identify functionality for division locations",
+      "uid" : "b8c31c7ab78badbe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1606138890016,
+        "stop" : 1606138919772,
+        "duration" : 29756
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should verify Google streetview",
+      "uid" : "853f303f0485db93",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605892918996,
+        "stop" : 1605892942246,
+        "duration" : 23250
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should verify different components of the basemap",
+      "uid" : "1d9c41e36c11d56c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605887835500,
+        "stop" : 1605887918384,
+        "duration" : 82884
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Measure area, linear distance and location",
+      "uid" : "d58a7b19b9c1a1c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606142591635,
+        "stop" : 1606142637247,
+        "duration" : 45612
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should verify legend layer Work Order Points",
+      "uid" : "4f019a512fa8f886",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1606814180273,
+        "stop" : 1606814188109,
+        "duration" : 7836
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should display a new pdf tab for print",
+      "uid" : "68af77e2f066d2d8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606139506578,
+        "stop" : 1606139520945,
+        "duration" : 14367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ],
+  "name" : "timeline"
+}

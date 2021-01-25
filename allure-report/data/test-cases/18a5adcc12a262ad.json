@@ -1,0 +1,58 @@
+{
+  "uid" : "18a5adcc12a262ad",
+  "name" : "Login to testfieldbook",
+  "fullName" : "Validate UGI project card selected.Login to testfieldbook",
+  "historyId" : "86d79d55ab56b202860827f3053a3f44",
+  "time" : {
+    "start" : 1606143118676,
+    "stop" : 1606143132704,
+    "duration" : 14028
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate UGI project card selected"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate UGI project card selected"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login to testfieldbook"
+  }, {
+    "name" : "package",
+    "value" : "Validate UGI project card selected"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18a5adcc12a262ad.json",
+  "parameterValues" : [ "chrome" ]
+}

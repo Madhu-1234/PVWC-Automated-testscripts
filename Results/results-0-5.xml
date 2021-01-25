@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Verifying_print_functionality" timestamp="2020-11-23T21:15:22" time="14.252" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Verifying print functionality"/>
+      <property name="capabilities" value="chrome.87_0_4280_66.windows"/>
+      <property name="file" value=".\test\TC_006_print.test.js"/>
+    </properties>
+    <testcase classname="chrome.87_0_4280_66.windows.Verifying_print_functionality" name="Should_display_a_new_pdf_tab_for_print" time="14.25">
+      <system-out>
+        <![CDATA[
+RESULT: {"using":"xpath","value":"//span[text()=\"Project\"]"}
+COMMAND: POST /session/9dd82a3868917573dfc9bb4447efaded/element - {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+COMMAND: POST /session/9dd82a3868917573dfc9bb4447efaded/execute/sync - {"script":"return (function isElementDisplayed(element) {\n  function nodeIsElement(node) {\n    if (!node) {\n      return false;\n    }\n\n    switch (node.nodeType) {\n      case Node.ELEMENT_NODE:\n      case Node.D ... (4720 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"da66a9d8-866d-4ee5-be1a-39c935255630","ELEMENT":"da66a9d8-866d-4ee5-be1a-39c935255630"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n  function nodeIsElement(node) {\n    if (!node) {\n      return false;\n    }\n\n    switch (node.nodeType) {\n      case Node.ELEMENT_NODE:\n      case Node.D ... (4720 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"da66a9d8-866d-4ee5-be1a-39c935255630","ELEMENT":"da66a9d8-866d-4ee5-be1a-39c935255630"}]}
+COMMAND: POST /session/9dd82a3868917573dfc9bb4447efaded/execute/sync - {"script":"return (function isElementClickable(elem) {\n  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n    return false;\n  }\n\n ... (3462 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"da66a9d8-866d-4ee5-be1a-39c935255630","ELEMENT":"da66a9d8-866d-4ee5-be1a-39c935255630"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n  if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n    return false;\n  }\n\n ... (3462 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"da66a9d8-866d-4ee5-be1a-39c935255630","ELEMENT":"da66a9d8-866d-4ee5-be1a-39c935255630"}]}
+COMMAND: POST /session/9dd82a3868917573dfc9bb4447efaded/element - {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"printButton2_label\"]"}
+COMMAND: POST /session/9dd82a3868917573dfc9bb4447efaded/element/da66a9d8-866d-4ee5-be1a-39c935255630/click - {}
+RESULT: {}
+COMMAND: GET /session/9dd82a3868917573dfc9bb4447efaded/window/handles - {}
+RESULT: {}
+COMMAND: DELETE /session/9dd82a3868917573dfc9bb4447efaded - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

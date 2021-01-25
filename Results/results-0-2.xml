@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Verifying_Google_StreetView" timestamp="2020-11-23T21:09:48" time="35.419" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Verifying Google StreetView"/>
+      <property name="capabilities" value="chrome.87_0_4280_66.windows"/>
+      <property name="file" value=".\test\TC_003_streetView.test.js"/>
+    </properties>
+    <testcase classname="chrome.87_0_4280_66.windows.Verifying_Google_StreetView" name="Should_verify_Google_streetview" time="35.417">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"css selector","value":"#searchButton"}
+RESULT: {"using":"css selector","value":"#searchButton"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element/1036682a-736c-4dc7-8a29-40a6f0c44932/click - {}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//span[text()=\"Project\"]"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"css selector","value":"#searchBox"}
+RESULT: {"using":"css selector","value":"#searchBox"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element/53e5da9f-1a02-403e-9a6a-da41adb2f138/value - {"text":"2701 Shore Road, Ocean View, NJ 08230, USA"}
+RESULT: {"text":"2701 Shore Road, Ocean View, NJ 08230, USA"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"css selector","value":"#searchWidgetButton"}
+RESULT: {"using":"css selector","value":"#searchWidgetButton"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element/6b75501e-1b62-4293-b365-89f341ee355a/click - {}
+RESULT: {}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element/e1877506-1873-41b1-9618-9ca2cd8e08eb/click - {}
+RESULT: {}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element/4815d605-44e2-4131-b5b5-5c25905f3998/click - {}
+RESULT: {}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"css selector","value":"#streetviewButton_label"}
+RESULT: {"using":"css selector","value":"#streetviewButton_label"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element/63ed7d6d-8924-4217-afb9-44593efcf5e0/click - {}
+RESULT: {}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"xpath","value":"//span[text()=\"Create Project\"]"}
+RESULT: {"using":"xpath","value":"//span[text()=\"Create Project\"]"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/actions - {"actions":[{"type":"pointer","id":"pointer1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","origin":{"sessionId":"903260dac62ae770217c68980a30fd32","elementId":"c07f06ba-ada8-4556-8f0a-b4c8109ab4d8","element-6066-11e4-a52e-4f735466cecf":"c07f06ba-ada8-4556-8f0a-b4c8109ab4d8","selector":"//span[text()=\"Create Project\"]","parent":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"87.0.4280.66","chrome":{"chromedriverVersion":"86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})","userDataDir":"C:\\Users\\Alok's\\AppData\\Local\\Temp\\scoped_dir16892_176541740"},"goog:chromeOptions":{"debuggerAddress":"localhost:64240"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"_":"5 more keys: [\"strictFileInteractability\",\"timeouts\",\"unhandledPromptBehavior\",\"webauthn:virtualAuthenticators\",\"webdriver.remote.sessionid\"]"},"config":{"specs":["./test/**/*.js"],"suites":{},"exclude":[],"logLevel":"info","logLevels":{},"excludeDriverLogs":[],"bail":0,"waitforInterval":500,"waitforTimeout":300000,"framework":"mocha","_":"40 more keys: [\"reporters\",\"services\",\"maxInstances\",\"maxInstancesPerCapability\",\"filesToWatch\",\"connectionRetryTimeout\",\"connectionRetryCount\",\"execArgv\",\"runnerEnv\",\"runner\",\"mochaOpts\",\"jasmineNodeOpts\",\"cucumberOpts\",\"onPrepare\",\"onWorkerStart\",\"before\",\"beforeSession\",\"beforeSuite\",\"beforeHook\",\"beforeTest\",\"beforeCommand\",\"afterCommand\",\"afterTest\",\"afterHook\",\"afterSuite\",\"afterSession\",\"after\",\"onComplete\",\"onReload\",\"beforeFeature\",\"beforeScenario\",\"beforeStep\",\"afterStep\",\"afterScenario\",\"afterFeature\",\"baseUrl\",\"_\",\"$0\",\"ignoredWorkerServices\",\"specFileRetryAttempts\"]"},"_NOT_FIBER":true},"isReactElement":false,"_NOT_FIBER":false},"x":227,"y":295},{"type":"pointerDown","button":0},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"type":"pointer","id":"pointer1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","origin":{"sessionId":"903260dac62ae770217c68980a30fd32","elementId":"c07f06ba-ada8-4556-8f0a-b4c8109ab4d8","element-6066-11e4-a52e-4f735466cecf":"c07f06ba-ada8-4556-8f0a-b4c8109ab4d8","selector":"//span[text()=\"Create Project\"]","parent":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"87.0.4280.66","chrome":{"chromedriverVersion":"86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})","userDataDir":"C:\\Users\\Alok's\\AppData\\Local\\Temp\\scoped_dir16892_176541740"},"goog:chromeOptions":{"debuggerAddress":"localhost:64240"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"_":"5 more keys: [\"strictFileInteractability\",\"timeouts\",\"unhandledPromptBehavior\",\"webauthn:virtualAuthenticators\",\"webdriver.remote.sessionid\"]"},"config":{"specs":["./test/**/*.js"],"suites":{},"exclude":[],"logLevel":"info","logLevels":{},"excludeDriverLogs":[],"bail":0,"waitforInterval":500,"waitforTimeout":300000,"framework":"mocha","_":"40 more keys: [\"reporters\",\"services\",\"maxInstances\",\"maxInstancesPerCapability\",\"filesToWatch\",\"connectionRetryTimeout\",\"connectionRetryCount\",\"execArgv\",\"runnerEnv\",\"runner\",\"mochaOpts\",\"jasmineNodeOpts\",\"cucumberOpts\",\"onPrepare\",\"onWorkerStart\",\"before\",\"beforeSession\",\"beforeSuite\",\"beforeHook\",\"beforeTest\",\"beforeCommand\",\"afterCommand\",\"afterTest\",\"afterHook\",\"afterSuite\",\"afterSession\",\"after\",\"onComplete\",\"onReload\",\"beforeFeature\",\"beforeScenario\",\"beforeStep\",\"afterStep\",\"afterScenario\",\"afterFeature\",\"baseUrl\",\"_\",\"$0\",\"ignoredWorkerServices\",\"specFileRetryAttempts\"]"},"_NOT_FIBER":true},"isReactElement":false,"_NOT_FIBER":false},"x":227,"y":295},{"type":"pointerDown","button":0},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/903260dac62ae770217c68980a30fd32/actions - {}
+RESULT: {}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+RESULT: {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+RESULT: {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+RESULT: {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+RESULT: {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+RESULT: {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+RESULT: {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/elements - {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+RESULT: {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+RESULT: {"using":"xpath","value":"//*[@id=\"divAddressText\"]/b"}
+COMMAND: GET /session/903260dac62ae770217c68980a30fd32/element/548dd18e-d1a0-4638-bfe5-8bbdbc45daa7/text - {}
+RESULT: {}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/element - {"using":"css selector","value":"#svWindow_wnd_title"}
+RESULT: {"using":"css selector","value":"#svWindow_wnd_title"}
+COMMAND: POST /session/903260dac62ae770217c68980a30fd32/execute/sync - {"script":"return (function isElementDisplayed(element) {\n  function nodeIsElement(node) {\n    if (!node) {\n      return false;\n    }\n\n    switch (node.nodeType) {\n      case Node.ELEMENT_NODE:\n      case Node.D ... (4720 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"5609100c-b254-4c1b-8f3e-1eddff29b2b0","ELEMENT":"5609100c-b254-4c1b-8f3e-1eddff29b2b0"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n  function nodeIsElement(node) {\n    if (!node) {\n      return false;\n    }\n\n    switch (node.nodeType) {\n      case Node.ELEMENT_NODE:\n      case Node.D ... (4720 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"5609100c-b254-4c1b-8f3e-1eddff29b2b0","ELEMENT":"5609100c-b254-4c1b-8f3e-1eddff29b2b0"}]}
+COMMAND: DELETE /session/903260dac62ae770217c68980a30fd32 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

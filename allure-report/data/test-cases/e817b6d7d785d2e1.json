@@ -1,0 +1,66 @@
+{
+  "uid" : "e817b6d7d785d2e1",
+  "name" : "Should display a new pdf tab for print",
+  "fullName" : "Verifying print functionality.Should display a new pdf tab for print",
+  "historyId" : "ec90ce4237d86e7c7f509185a75bbe87",
+  "time" : {
+    "start" : 1606139861924,
+    "stop" : 1606139876223,
+    "duration" : 14299
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should display a new pdf tab for print"
+  }, {
+    "name" : "package",
+    "value" : "Verifying print functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "68af77e2f066d2d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606139506578,
+        "stop" : 1606139520945,
+        "duration" : 14367
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e817b6d7d785d2e1.json",
+  "parameterValues" : [ "chrome" ]
+}

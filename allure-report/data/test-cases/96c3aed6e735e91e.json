@@ -1,0 +1,93 @@
+{
+  "uid" : "96c3aed6e735e91e",
+  "name" : "Should verify legend layer Work Order Points",
+  "fullName" : "Verifying legend components.Should verify legend layer Work Order Points",
+  "historyId" : "50fec78f9488a536ff6c0bde20e50ce7",
+  "time" : {
+    "start" : 1611596226360,
+    "stop" : 1611596237145,
+    "duration" : 10785
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying legend components"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying legend components"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify legend layer Work Order Points"
+  }, {
+    "name" : "package",
+    "value" : "Verifying legend components"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4f019a512fa8f886",
+      "status" : "failed",
+      "statusDetails" : "expected true to equal false",
+      "time" : {
+        "start" : 1606814180273,
+        "stop" : 1606814188109,
+        "duration" : 7836
+      }
+    }, {
+      "uid" : "d8daf9d6fc6279b7",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //span[text()=\"Commercial - up to 6\" mtr\"] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()=\"Commercial - up to 6\" mtr\"]' is not a valid XPath expression.\n                  (Session info: chrome=87.0.4280.66)",
+      "time" : {
+        "start" : 1606813835955,
+        "stop" : 1606813839169,
+        "duration" : 3214
+      }
+    }, {
+      "uid" : "abe042f8f74dfa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605796031800,
+        "stop" : 1605796036484,
+        "duration" : 4684
+      }
+    }, {
+      "uid" : "c249f5a2d2330ef2",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForDisplayed' of undefined",
+      "time" : {
+        "start" : 1605795941840,
+        "stop" : 1605795944030,
+        "duration" : 2190
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96c3aed6e735e91e.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,94 @@
+{
+  "uid" : "1e929bf77369b21d",
+  "name" : "Identify functionality for division locations",
+  "fullName" : "Verifying identify functionality.Identify functionality for division locations",
+  "historyId" : "ce7802b2ecd79dd6bfa27d13137a4fa0",
+  "time" : {
+    "start" : 1606139232111,
+    "stop" : 1606139261118,
+    "duration" : 29007
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Identify functionality for division locations"
+  }, {
+    "name" : "package",
+    "value" : "Verifying identify functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "11b11dfcce6fc36a",
+      "status" : "failed",
+      "statusDetails" : "expected 'Counties' to equal 'Parcels'",
+      "time" : {
+        "start" : 1606139071650,
+        "stop" : 1606139100654,
+        "duration" : 29004
+      }
+    }, {
+      "uid" : "b8c31c7ab78badbe",
+      "status" : "failed",
+      "statusDetails" : "expected 'Counties' to equal 'Project'",
+      "time" : {
+        "start" : 1606138890016,
+        "stop" : 1606138919772,
+        "duration" : 29756
+      }
+    }, {
+      "uid" : "a8375bd3d6a273e3",
+      "status" : "failed",
+      "statusDetails" : "expected 'Counties' to equal 'Parcels'",
+      "time" : {
+        "start" : 1606138629346,
+        "stop" : 1606138702703,
+        "duration" : 73357
+      }
+    }, {
+      "uid" : "89b720b359e4a6b0",
+      "status" : "broken",
+      "statusDetails" : "javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.\n                  (Session info: chrome=87.0.4280.66)",
+      "time" : {
+        "start" : 1605898063758,
+        "stop" : 1605898085910,
+        "duration" : 22152
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e929bf77369b21d.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,141 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Verifying basemap components",
+    "children" : [ {
+      "name" : "Should verify different components of the basemap",
+      "uid" : "f1fd648f42154242",
+      "parentUid" : "aa984c3bd53fcbd95f6f3d9c825624d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605892319080,
+        "stop" : 1605892387425,
+        "duration" : 68345
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "aa984c3bd53fcbd95f6f3d9c825624d7"
+  }, {
+    "name" : "Verifying Google StreetView",
+    "children" : [ {
+      "name" : "Should verify Google streetview",
+      "uid" : "ef75710914de7829",
+      "parentUid" : "74ec1f60176fe72496fdc9e349158c0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605893009889,
+        "stop" : 1605893033321,
+        "duration" : 23432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "74ec1f60176fe72496fdc9e349158c0a"
+  }, {
+    "name" : "Verifying feature search and reverse geocode",
+    "children" : [ {
+      "name" : "Should feature search and reverse geocode search",
+      "uid" : "5f183341a3031add",
+      "parentUid" : "e82cd6f4646f16e1caba116345bc024e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605897165048,
+        "stop" : 1605897210759,
+        "duration" : 45711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "e82cd6f4646f16e1caba116345bc024e"
+  }, {
+    "name" : "Verifying identify functionality",
+    "children" : [ {
+      "name" : "Identify functionality for division locations",
+      "uid" : "1e929bf77369b21d",
+      "parentUid" : "c8cd1830d0f80ba69ff7b2f185c57b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606139232111,
+        "stop" : 1606139261118,
+        "duration" : 29007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "c8cd1830d0f80ba69ff7b2f185c57b1c"
+  }, {
+    "name" : "Verifying print functionality",
+    "children" : [ {
+      "name" : "Should display a new pdf tab for print",
+      "uid" : "e817b6d7d785d2e1",
+      "parentUid" : "7e10cd9390f7ff384d05e7ba86ebbd7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606139861924,
+        "stop" : 1606139876223,
+        "duration" : 14299
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "7e10cd9390f7ff384d05e7ba86ebbd7d"
+  }, {
+    "name" : "Verifying measure functionality",
+    "children" : [ {
+      "name" : "Measure area, linear distance and location",
+      "uid" : "d58a7b19b9c1a1c",
+      "parentUid" : "0d9b83045f75af53c0aee1ac892bc661",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606142591635,
+        "stop" : 1606142637247,
+        "duration" : 45612
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "0d9b83045f75af53c0aee1ac892bc661"
+  }, {
+    "name" : "Validate UGI project card selected",
+    "children" : [ {
+      "name" : "Login to testfieldbook",
+      "uid" : "18a5adcc12a262ad",
+      "parentUid" : "a452b5fc6befbbe2f3ab58a799200869",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606143118676,
+        "stop" : 1606143132704,
+        "duration" : 14028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "a452b5fc6befbbe2f3ab58a799200869"
+  }, {
+    "name" : "Verifying legend components",
+    "children" : [ {
+      "name" : "Should verify legend layer Work Order Points",
+      "uid" : "96c3aed6e735e91e",
+      "parentUid" : "129208746e123446f08aad9b839d13dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611596226360,
+        "stop" : 1611596237145,
+        "duration" : 10785
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "129208746e123446f08aad9b839d13dc"
+  } ],
+  "name" : "suites"
+}

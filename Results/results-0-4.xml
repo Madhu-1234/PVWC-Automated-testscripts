@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Verifying_identify_functionality" timestamp="2020-11-23T21:13:41" time="29.905" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Verifying identify functionality"/>
+      <property name="capabilities" value="chrome.87_0_4280_66.windows"/>
+      <property name="file" value=".\test\TC_005_identify.test.js"/>
+    </properties>
+    <testcase classname="chrome.87_0_4280_66.windows.Verifying_identify_functionality" name="Identify_functionality_for_division_locations" time="29.902">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"css selector","value":"#searchButton"}
+RESULT: {"using":"xpath","value":"//span[text()=\"Project\"]"}
+RESULT: {"using":"css selector","value":"#searchButton"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element/b9160adc-e5f0-4188-89ec-05b2d9bce639/click - {}
+RESULT: {}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"css selector","value":"#searchBox"}
+RESULT: {"using":"css selector","value":"#searchBox"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element/a6e001ba-b932-47d2-ba98-2204a851cc79/value - {"text":"568 Avondale Rd, PA"}
+RESULT: {"text":"568 Avondale Rd, PA"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"css selector","value":"#searchWidgetButton"}
+RESULT: {"using":"css selector","value":"#searchWidgetButton"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element/034711ce-857f-4664-a4d6-0ee0e27a028b/click - {}
+RESULT: {}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/elements - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+RESULT: {"using":"xpath","value":"//*[@id=\"kendoSearchGrid\"]/div[4]/table/tbody/tr"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element/7d74b48f-5716-4122-86e7-d6fe52fb7190/click - {}
+RESULT: {}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/elements - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/elements - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[12]/div[1]/div/a[2]/span"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element/ded0c1dc-fbba-4a88-a48e-3e35eed89d8c/click - {}
+RESULT: {}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"css selector","value":"#identifyButton"}
+RESULT: {"using":"css selector","value":"#identifyButton"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element/9d476b24-8a97-46a5-8e33-4eef22eca6af/click - {}
+RESULT: {}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"xpath","value":"//*[@id=\"PR3ViewProjectButton_label\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"PR3ViewProjectButton_label\"]"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/actions - {"actions":[{"type":"pointer","id":"pointer1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","origin":{"sessionId":"43329ec3eec86969313ac2c85e8345b0","elementId":"70b38b2e-61d7-485b-9c4b-9ff304f9804f","element-6066-11e4-a52e-4f735466cecf":"70b38b2e-61d7-485b-9c4b-9ff304f9804f","selector":"//*[@id=\"PR3ViewProjectButton_label\"]","parent":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"87.0.4280.66","chrome":{"chromedriverVersion":"86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})","userDataDir":"C:\\Users\\Alok's\\AppData\\Local\\Temp\\scoped_dir8368_1520323461"},"goog:chromeOptions":{"debuggerAddress":"localhost:64608"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"_":"5 more keys: [\"strictFileInteractability\",\"timeouts\",\"unhandledPromptBehavior\",\"webauthn:virtualAuthenticators\",\"webdriver.remote.sessionid\"]"},"config":{"specs":["./test/**/*.js"],"suites":{},"exclude":[],"logLevel":"info","logLevels":{},"excludeDriverLogs":[],"bail":0,"waitforInterval":500,"waitforTimeout":300000,"framework":"mocha","_":"40 more keys: [\"reporters\",\"services\",\"maxInstances\",\"maxInstancesPerCapability\",\"filesToWatch\",\"connectionRetryTimeout\",\"connectionRetryCount\",\"execArgv\",\"runnerEnv\",\"runner\",\"mochaOpts\",\"jasmineNodeOpts\",\"cucumberOpts\",\"onPrepare\",\"onWorkerStart\",\"before\",\"beforeSession\",\"beforeSuite\",\"beforeHook\",\"beforeTest\",\"beforeCommand\",\"afterCommand\",\"afterTest\",\"afterHook\",\"afterSuite\",\"afterSession\",\"after\",\"onComplete\",\"onReload\",\"beforeFeature\",\"beforeScenario\",\"beforeStep\",\"afterStep\",\"afterScenario\",\"afterFeature\",\"baseUrl\",\"_\",\"$0\",\"ignoredWorkerServices\",\"specFileRetryAttempts\"]"},"_NOT_FIBER":true},"isReactElement":false,"_NOT_FIBER":false},"x":237,"y":155},{"type":"pointerDown","button":0},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"type":"pointer","id":"pointer1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","origin":{"sessionId":"43329ec3eec86969313ac2c85e8345b0","elementId":"70b38b2e-61d7-485b-9c4b-9ff304f9804f","element-6066-11e4-a52e-4f735466cecf":"70b38b2e-61d7-485b-9c4b-9ff304f9804f","selector":"//*[@id=\"PR3ViewProjectButton_label\"]","parent":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"87.0.4280.66","chrome":{"chromedriverVersion":"86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})","userDataDir":"C:\\Users\\Alok's\\AppData\\Local\\Temp\\scoped_dir8368_1520323461"},"goog:chromeOptions":{"debuggerAddress":"localhost:64608"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"_":"5 more keys: [\"strictFileInteractability\",\"timeouts\",\"unhandledPromptBehavior\",\"webauthn:virtualAuthenticators\",\"webdriver.remote.sessionid\"]"},"config":{"specs":["./test/**/*.js"],"suites":{},"exclude":[],"logLevel":"info","logLevels":{},"excludeDriverLogs":[],"bail":0,"waitforInterval":500,"waitforTimeout":300000,"framework":"mocha","_":"40 more keys: [\"reporters\",\"services\",\"maxInstances\",\"maxInstancesPerCapability\",\"filesToWatch\",\"connectionRetryTimeout\",\"connectionRetryCount\",\"execArgv\",\"runnerEnv\",\"runner\",\"mochaOpts\",\"jasmineNodeOpts\",\"cucumberOpts\",\"onPrepare\",\"onWorkerStart\",\"before\",\"beforeSession\",\"beforeSuite\",\"beforeHook\",\"beforeTest\",\"beforeCommand\",\"afterCommand\",\"afterTest\",\"afterHook\",\"afterSuite\",\"afterSession\",\"after\",\"onComplete\",\"onReload\",\"beforeFeature\",\"beforeScenario\",\"beforeStep\",\"afterStep\",\"afterScenario\",\"afterFeature\",\"baseUrl\",\"_\",\"$0\",\"ignoredWorkerServices\",\"specFileRetryAttempts\"]"},"_NOT_FIBER":true},"isReactElement":false,"_NOT_FIBER":false},"x":237,"y":155},{"type":"pointerDown","button":0},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/43329ec3eec86969313ac2c85e8345b0/actions - {}
+RESULT: {}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"xpath","value":"//*[@id=\"identifyLayerName\"]/b"}
+RESULT: {"using":"xpath","value":"//*[@id=\"identifyLayerName\"]/b"}
+COMMAND: GET /session/43329ec3eec86969313ac2c85e8345b0/element/dccb1149-0040-47c4-8283-afb4d8766e66/text - {}
+RESULT: {}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"xpath","value":"//*[@id=\"nextIdentify\"]/a"}
+RESULT: {"using":"xpath","value":"//*[@id=\"nextIdentify\"]/a"}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element/66c0e785-fd2e-4dbe-bd3a-8f2c95c4b4a7/click - {}
+RESULT: {}
+COMMAND: POST /session/43329ec3eec86969313ac2c85e8345b0/element - {"using":"xpath","value":"//*[@id=\"identifyLayerName\"]/b"}
+RESULT: {"using":"xpath","value":"//*[@id=\"identifyLayerName\"]/b"}
+COMMAND: GET /session/43329ec3eec86969313ac2c85e8345b0/element/722553cc-982c-4b6e-9a25-b14629f33a54/text - {}
+RESULT: {}
+COMMAND: DELETE /session/43329ec3eec86969313ac2c85e8345b0 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
